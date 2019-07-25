@@ -210,3 +210,64 @@ for (let i = 0; i < students.length; i++){
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// for (let i = 0; i < students.length; i++){
+
+//     if(students[i].phoneNo.charAt(2) == "3" && students[i].phoneNo){
+//         console.log(students[i].phoneNo.charAt(3)<=7);
+//     }
+
+
+// }
+
+// question no 8
+
+// for (let i = 0; i < students.length; i++){
+
+//     if (students[i].hasJob === true || students[i]. hasSchoolBefore===true){
+//         console.log(students[i].name);
+//         groupB.push(students[i].name) ;
+//     }else{
+//         console.log("Group B"+student[i].name)
+//         groupB.push(students[i].name) ;
+//     }
+// }
+
+
+// let groupA=[];
+// let groupB = [];
+
+
+// console.log("group A :" +groupA.join(',' ));
+// console.log("group A :" +groupA.join(',' ));
+
+
+for (let i = 0; i < students.length; i++) {
+    let dob = students[i].dob;
+    let today= new Date();
+    let yearDiff =today.getFullYear() - 
+}
+
